@@ -9,19 +9,19 @@ def run_extract_text_from_html_bytes(html_bytes: bytes) -> str | None:
     raise NotImplementedError
 
 
-def run_identify_language(text: str) -> tuple[Any, float]:
+def run_identify_language(text: str) -> tuple[str, float]:
     raise NotImplementedError
 
 
-def run_mask_emails(text: str) -> list[tuple[int, int]]:
+def run_mask_emails(text: str) -> tuple[str, int]]:
     raise NotImplementedError
 
 
-def run_mask_phone_numbers(text: str) -> list[tuple[int, int]]:
+def run_mask_phone_numbers(text: str) -> tuple[str, int]]:
     raise NotImplementedError
 
 
-def run_mask_ips(text: str) -> list[tuple[int, int]]:
+def run_mask_ips(text: str) -> tuple[str, int]]:
     raise NotImplementedError
 
 
