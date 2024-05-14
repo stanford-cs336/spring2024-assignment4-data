@@ -13,15 +13,15 @@ def run_identify_language(text: str) -> tuple[Any, float]:
     raise NotImplementedError
 
 
-def run_mask_emails(text: str) -> list[tuple[int, int]]:
+def run_mask_emails(text: str) -> tuple[str, int]:
     raise NotImplementedError
 
 
-def run_mask_phone_numbers(text: str) -> list[tuple[int, int]]:
+def run_mask_phone_numbers(text: str) -> tuple[str, int]:
     raise NotImplementedError
 
 
-def run_mask_ips(text: str) -> list[tuple[int, int]]:
+def run_mask_ips(text: str) -> tuple[str, int]:
     raise NotImplementedError
 
 
