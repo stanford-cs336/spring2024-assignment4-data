@@ -15,7 +15,7 @@ def test_classify_nsfw():
     )
     # TODO: you may have to change this check below, depending on what your
     # NSFW classifier system returns.
-    assert prediction == "toxic"
+    assert prediction == "nsfw"
     assert isinstance(score, float)
     assert score > 0
 
@@ -26,7 +26,7 @@ def test_classify_nsfw():
     )
     # TODO: you may have to change this check below, depending on what your
     # NSFW classifier system returns.
-    assert prediction == "non-toxic"
+    assert prediction == "non-nsfw"
     assert isinstance(score, float)
     assert score > 0
 
