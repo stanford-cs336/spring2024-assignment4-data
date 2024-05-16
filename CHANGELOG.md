@@ -6,6 +6,8 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Added
 
+- handout: added usage example for parallelism with `concurrent.futures` and `submitit`.
+
 ### Changed
 
 ### Fixed
