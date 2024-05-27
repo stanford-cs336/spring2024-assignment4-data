@@ -10,6 +10,16 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Fixed
 
+## [0.0.3] - 2024-05-26
+
+### Added
+
+### Changed
+
+### Fixed
+
+- handout: add `--device cuda` to training command
+
 ## [0.0.2] - 2024-05-19
 
 ### Added
