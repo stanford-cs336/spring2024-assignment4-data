@@ -6,7 +6,36 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Added
 
+### Changed
+
+### Fixed
+
+## [0.0.4] - 2024-05-29
+
+### Added
+
+- handout: make sure to specify in problem `train_model` that we provide a training script.
+
+### Changed
+
+### Fixed
+
+## [0.0.3] - 2024-05-26
+
+### Added
+
+### Changed
+
+### Fixed
+
+- handout: add `--device cuda` to training command
+
+## [0.0.2] - 2024-05-19
+
+### Added
+
 - handout: added usage example for parallelism with `concurrent.futures` and `submitit`.
+- handout: added points to each of the problems
 
 ### Changed
 
